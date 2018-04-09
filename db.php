@@ -1,12 +1,12 @@
 <?php
 		
-	$serverName = "localhost";   
+	$serverName = "sulley.cah.ucf.edu";   
 	$uid = "co297720";     
 	$pwd = "3KblNsL0azpFkGj8";    
 	$databaseName = "co297720";     
 	    
 	// Connect using mySQL Authentication.    
-	$conn = mysqli_connect( $serverName, $uid, $pwd, $databaseName);
+	$con = mysqli_connect( $serverName, $uid, $pwd, $databaseName);
 
 
 ?>
