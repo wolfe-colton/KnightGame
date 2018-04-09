@@ -1,6 +1,7 @@
 <?php
 //include auth.php file on all secure pages, checks to make sure user is logged in to access information
 include("auth.php");
+session_start();
 ?>
 <!DOCTYPE html>
 <html>

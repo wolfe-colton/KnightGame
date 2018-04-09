@@ -1,6 +1,7 @@
 <?php
 require('db.php');
 include("auth.php"); //makes sure user is logged in
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
